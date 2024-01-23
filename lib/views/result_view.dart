@@ -62,3 +62,6 @@ class ResultView extends StatelessWidget {
     );
   }
 }
+
+
+// design reference from https://i.pinimg.com/736x/8b/7b/84/8b7b84fd89eff081dae32fb123b071e0.jpg

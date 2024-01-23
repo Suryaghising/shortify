@@ -114,3 +114,5 @@ class _HomeViewState extends State<HomeView> {
     );
   }
 }
+
+// design reference from https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIky5-rGidrA0PDTqijL_ritWq6x27B7zkjQ&usqp=CAU
