@@ -22,7 +22,7 @@ class CustomButton extends StatelessWidget {
         'Shorten URL',
         textColor: Colors.white,
         fontWeight: FontWeight.w700,
-        fontSize: 20,
+        fontSize: 16,
       ),
       onPressed: onPressed,
     );

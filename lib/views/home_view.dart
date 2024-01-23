@@ -34,26 +34,26 @@ class _HomeViewState extends State<HomeView> {
         child: Stack(
           children: [
             Container(
-              margin: EdgeInsets.symmetric(horizontal: kHorizontalMargin * 3),
+              margin: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   const ResponsiveText(
                     kAppName,
-                    fontSize: 68,
+                    fontSize: 24,
                     textColor: kTitleColor,
                     fontWeight: FontWeight.w700,
                   ),
-                  SizedBox(
-                    height: height * 0.06,
+                  const SizedBox(
+                    height: 40,
                   ),
                   const ResponsiveText(
                     kDestinationUrl,
                     fontSize: 16,
                   ),
-                  SizedBox(
-                    height: kVerticalMargin / 2,
+                  const SizedBox(
+                    height: 16,
                   ),
                   TextField(
                     controller: urlInputController,
@@ -65,7 +65,7 @@ class _HomeViewState extends State<HomeView> {
                         )),
                     maxLines: 4,
                   ),
-                  SizedBox(height: kVerticalMargin * 3),
+                  const SizedBox(height: 24),
                   CustomButton(onPressed: showProgressbar? null:  () async {
                     setState(() {
                       showProgressbar = true;
